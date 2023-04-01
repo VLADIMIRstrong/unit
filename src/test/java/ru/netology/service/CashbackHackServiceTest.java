@@ -1,22 +1,13 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
-import static org.testng.Assert.*;
+import static org.junit.Assert.*;
 
 public class CashbackHackServiceTest {
 
     @Test
-    public void testRemain() {
-        CashbackHackService service = new CashbackHackService();
-        int amount = 900;
-        int actual = service.Remain(amount);
-        int expected = 100;
-        assertEquals(actual, expected);
-    }
-
-    @Test
-    public void testRemain2() {
+    public void remain() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
         int actual = service.Remain(amount);
@@ -25,16 +16,16 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testRemain3() {
+    public void remain2() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 500;
+        int amount = 900;
         int actual = service.Remain(amount);
-        int expected = 500;
+        int expected = 100;
         assertEquals(actual, expected);
     }
 
     @Test
-    public void testRemain4() {
+    public void remain3() {
         CashbackHackService service = new CashbackHackService();
         int amount = 0;
         int actual = service.Remain(amount);
@@ -43,11 +34,20 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testRemain5() {
+    public void remain4() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 100;
+        int amount =  100;
         int actual = service.Remain(amount);
-        int expected = 900;
+        int expected =  900;
+        assertEquals(actual, expected);
+    }
+
+    @Test
+    public void remain5() {
+        CashbackHackService service = new CashbackHackService();
+        int amount = 500;
+        int actual = service.Remain(amount);
+        int expected =  500;
         assertEquals(actual, expected);
     }
 }
