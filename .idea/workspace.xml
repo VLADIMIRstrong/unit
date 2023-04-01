@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997534e7-dfb5-4dea-a9ee-1c3d51a33280" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/service/CashbackHackServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/service/CashbackHackServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

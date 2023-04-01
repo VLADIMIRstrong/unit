@@ -45,9 +45,9 @@ public class CashbackHackServiceTest {
     @Test
     public void remain5() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 500;
+        int amount = 400;
         int actual = service.Remain(amount);
-        int expected =  500;
+        int expected =   600;
         assertEquals(actual, expected);
     }
 }
